@@ -21,7 +21,8 @@
 
 ## Transformer
 
-[]()
+[VPS20-8800](http://catalog.triadmagnetics.com/Asset/VPS20-8800.pdf)
+
 
 
 ## DC Regulator
