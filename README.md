@@ -16,7 +16,17 @@
 |--------------------------|---|
 | Transformer              | 1 |
 | Diodes                   | 4 |
-
+| Smoothing Capacitor      | 1 |
+| Output Capacitor         | 1 |
+| LDO Regulator            | 1 |
+| LDO Heat Sink            | 1 |
+| ~.5 Ohm 10W Resistor     |*1 |
+| Fuse                     | 1 |
+| Fuse Cartridge           | 1 |
+| Power Switch             | 1 |
+| Perf Board               | 1 |
+| Hook Wire                | 2 |
+| Quick Connects           | 6 |
 
 
 ## Transformer
@@ -42,5 +52,9 @@ r1 = r2 * (vout / 1.24 - 1.)
 ```
 The resistor values can be scaled to provide the mimimum load requirement described above.
 
+## Useful Tutorials
+
+* [Variable Voltage Power Supply](http://www.electronics-tutorials.ws/blog/variable-voltage-power-supply.html)
+* [Unregulated Power Supply](http://www.electronics-tutorials.ws/blog/unregulated-power-supply.html)
 
 
