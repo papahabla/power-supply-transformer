@@ -51,10 +51,10 @@ The full wave retification will then further attenuate the voltage slightly by t
 ### [LM338](http://www.ti.com/lit/ds/symlink/lm338.pdf)
 
 * Good inut voltage range of up to 40 VDC
-* 3 VDC headroom
+* 3 VDC headroom is required
 * 5 AMP output current
 * 3 terminal design
-* No flag (TODO:)
+* No fault flag (TODO:)
 
 #### Design
 
@@ -103,10 +103,10 @@ r1 = r2 * (vout / 1.24 - 1.)
 ```
 The resistor values can be scaled to provide the mimimum load requirement described above.
 
-## Useful Tutorials
+## Useful Links and Tutorials
 
 * [Variable Voltage Power Supply](http://www.electronics-tutorials.ws/blog/variable-voltage-power-supply.html)
 * [Unregulated Power Supply](http://www.electronics-tutorials.ws/blog/unregulated-power-supply.html)
 * [Calculator](http://www.changpuak.ch/electronics/power_supply_design.php)
-* [John Errington's tutorial on Power Supply Design]http://www.skillbank.co.uk/psu/trfrec.htm
+* [John Errington's tutorial on Power Supply Design](http://www.skillbank.co.uk/psu/trfrec.htm)
 
